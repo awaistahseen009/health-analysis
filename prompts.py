@@ -42,7 +42,7 @@ soap_note_prompt = '''
 Act as an expert healthcare provide.You have the patient-doctor conversation where doctor's conversation starts with 'D' and patient's conversation starts with 'P' or it can also be written as 'Patient' or 'Doctor' in full form and by using that conversation you have to write a simple and concise SOAP note. 
 Format for SOAP note is given
 <FORMAT>
-                                    # SOAP Note 
+                                    SOAP Note 
     1. Subjective: 
     - Chief complaint in the patient’s own words.
     - History of present illness summarized with OPQRST:
@@ -77,7 +77,7 @@ Act as an expert healthcare provider. You have the patient-doctor conversation w
 The clinic report should include the following sections:
 
 <FORMAT>
-                                    # Clinical Report 
+                                    Clinical Report 
     1. Patient Information: 
         - Summarize patient demographics (e.g., age, gender, relevant background details if mentioned).
 
